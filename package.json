@@ -1,28 +1,57 @@
 {
-  "name": "raccoon",
-  "author": "Guy Morita",
-  "description": "A Collaborative Filtering Recommendation Engine for Node.js utilizing Redis",
-  "version": "0.2.8",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/guymorita/recommendationRaccoon.git"
+  "_from": "git+https://github.com/FernandoEcloud/recommendationRaccoon.git",
+  "_id": "raccoon@0.2.8",
+  "_inBundle": false,
+  "_location": "/raccoon",
+  "_phantomChildren": {
+    "double-ended-queue": "2.1.0-0",
+    "lodash": "4.17.11",
+    "redis-commands": "1.4.0",
+    "redis-parser": "2.6.0"
   },
+  "_requested": {
+    "type": "git",
+    "raw": "raccoon@git+https://github.com/FernandoEcloud/recommendationRaccoon.git",
+    "name": "raccoon",
+    "escapedName": "raccoon",
+    "rawSpec": "git+https://github.com/FernandoEcloud/recommendationRaccoon.git",
+    "saveSpec": "git+https://github.com/FernandoEcloud/recommendationRaccoon.git",
+    "fetchSpec": "https://github.com/FernandoEcloud/recommendationRaccoon.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/FernandoEcloud/recommendationRaccoon.git#9d0104f36df32287b5a7d995f4420a7ce4120f34",
+  "_spec": "raccoon@git+https://github.com/FernandoEcloud/recommendationRaccoon.git",
+  "_where": "/Applications/MAMP/htdocs/ist-api",
+  "author": {
+    "name": "Guy Morita"
+  },
+  "bugs": {
+    "url": "https://github.com/guymorita/recommendationRaccoon/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "async": "~2.1.x",
     "bluebird": "~3.4.x",
     "redis": "~2.6.x",
     "underscore": "~1.8.x"
   },
-  "main": "./index.js",
+  "deprecated": false,
+  "description": "A Collaborative Filtering Recommendation Engine for Node.js utilizing Redis",
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-cov": "^0.4.0",
+    "mocha": "~3.2.0"
+  },
   "engines": {
     "node": ">= 6.0.0"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/guymorita/recommendationRaccoon/LICENSE"
-    }
-  ],
+  "homepage": "https://github.com/guymorita/recommendationRaccoon#readme",
   "keywords": [
     "recommend",
     "recommended",
@@ -34,16 +63,17 @@
     "redis"
   ],
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/guymorita/recommendationRaccoon/issues"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/guymorita/recommendationRaccoon/LICENSE"
+    }
+  ],
+  "main": "./index.js",
+  "name": "raccoon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guymorita/recommendationRaccoon.git"
   },
-  "devDependencies": {
-    "chai": "~3.5.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-jshint": "^1.1.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-mocha-cov": "^0.4.0",
-    "mocha": "~3.2.0"
-  }
+  "version": "0.2.8"
 }
